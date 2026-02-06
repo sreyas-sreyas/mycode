@@ -2,10 +2,220 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Your Name | BCA Graduate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            
+            height: fit-content;
+    
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+          
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #38bdf8;
+        }
+
+        header h2 {
+            font-weight: 300;
+            margin: 15px 0;
+            color: #cbd5f5;
+        }
+
+        header p {
+            max-width: 600px;
+            margin: 20px auto;
+            color: #94a3b8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: #38bdf8;
+            color: #020617;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .about p {
+            max-width: 800px;
+            color: #cbd5f5;
+        }
+
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #1e293b;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #e5e7eb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        .bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.4);
+}
+
+    </style>
 </head>
-<body>
-    <h1> welcome to my site</h1>
+
+<body> 
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="C:\Users\pc\Desktop\myprog\12202872_1920_1080_24fps (1).mp4" type="video/mp4">
+    </video>
+
+<header>
+    <div>
+        <img src="https://pngfre.com/wp-content/uploads/satoru-gojo-8.png"</img>
+        <h1><marquee>Hi, I'm Satoru Gojo</marquee></h1>
+        <h2>Cursed Sorccerer | Teacher</h2>
+        <p>
+            wields unparalleled power with his Limitless technique and Six Eyes, navigating life from a position of absolute, lonely strength
+        </p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </div>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        Being the strongest... it’s a bit like looking at a masterpiece through a microscope 24/7. You see every flaw, every particle of dust, every spark of Cursed Energy before the person even knows they’re feeling it.
+I wear the blindfold because, honestly, the world is too loud. Without it, I’m not just seeing you; I’m seeing the atomic structure of the air between us. It’s exhausting being 'enlightened' every second of the day.People think it’s lonely at the top? They’re right. When you’re me, everyone else looks like they’re moving in slow motion. I have to remind myself to slow down so I don't leave them behind—or worse, accidentally crush them with the 'infinity' that stays between me and everything I touch.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">
+            <h3>The Six Eyes (Passive Ability)</h3>
+            <p>This is a rare ocular trait that allows Gojo to process the world at an Atomic Level</p>
+        </div>
+        <div class="card">
+            <h3> The Limitless (Innate Technique)</h3>
+            <p>This technique allows Gojo to manipulate Space and Infinity itself.</p>
+        </div>
+        <div class="card">
+            <h3>Domain Expansion: Unlimited Void</h3>
+            <p>His ultimate move traps targets in a Blank Space where their minds are bombarded with Infinite Information</p>
+        </div>
+        <div class="card">
+            <h3> Physical and Combat Prowess</h3>
+            <p>Beyond his "god-like" powers, Gojo is an elite Martial Artist.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3> The "Education" Revolution</h3>
+            <p>
+                Gojo’s biggest project is his role at Tokyo Jujutsu High. He despises the "conservative fossils" who run the jujutsu world and believes that killing them won't change anything—new fossils would just take their place.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3> Project: The Next "Strongest"</h3>
+            <p>
+                Gojo is obsessed with finding individuals who can reach his level so he won't be alone at the top anymore.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>The Search for Sukuna’s Fingers</h3>
+            <p>
+                While the higher-ups want the fingers destroyed, Gojo’s "field project" is collecting them to force a final confrontation. He uses Yuji as a vessel to track and "store" the fingers, betting on Yuji's ability to remain in control.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: satorugojo.su@email.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Satoru Gojo </p>
+</footer>
+
 </body>
 </html>
